@@ -75,16 +75,16 @@ body {
               url('./images/cover.jpg') no-repeat center / cover;
   background-color: black;
   margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cover__title {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
-  top: 135px;
-  left: 50px;
-  right: 50px;
+  padding: 135px 50px 0 50px;
   text-transform: uppercase;
   margin: 0;
 }
@@ -95,13 +95,12 @@ body {
   font-weight: 700;
   font-size: 100px;
   line-height: 1.15;
-  letter-spacing: 30px;
+  letter-spacing: 0.3em;
   color: #fff;
 }
 
 .aligned-text {
   align-self: flex-start;
-  margin-left: -15px;
 }
 
 .aligned-text_center {
@@ -110,17 +109,14 @@ body {
 
 .aligned-text_right {
   align-self: flex-end;
-  margin-right: -15px;
 }
 
 .cover__description {
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 50px;
+  margin-bottom: 50px;
   color: #fff;
 }
 
@@ -130,7 +126,7 @@ body {
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 10px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -157,7 +153,6 @@ body {
 
 .lots {
   width: 1052px;
-  min-height: 723px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 120px;
@@ -217,6 +212,11 @@ body {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
 }
 
 .card {
@@ -266,16 +266,11 @@ body {
 }
 
 .about {
-  display: grid;
-  grid-template-columns: 240px 693px;
-  column-gap: 72px;
+  display: flex;
+  gap: 72px;
   width: 1052px;
-  padding-left: 47px;
-  padding-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-  margin-bottom: 180px;
+  padding-left: 40px;
+  margin: 0 auto 180px;
 }
 
 .about-logo {
