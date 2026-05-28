@@ -104,10 +104,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 165px;
+  top: 135px;
   left: 50px;
   right: 50px;
-  height: 385px;
   text-transform: uppercase;
   margin: 0;
 }
@@ -118,12 +117,13 @@ body {
   font-weight: 700;
   font-size: 100px;
   line-height: 1.15;
-  letter-spacing: 0.3em;
+  letter-spacing: 30px;
   color: #fff;
 }
 
 .aligned-text {
   align-self: flex-start;
+  margin-left: -15px;
 }
 
 .aligned-text_center {
@@ -132,6 +132,7 @@ body {
 
 .aligned-text_right {
   align-self: flex-end;
+  margin-right: -15px;
 }
 
 .cover__description {
@@ -139,7 +140,6 @@ body {
   bottom: 50px;
   left: 50px;
   right: 50px;
-  height: 51px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -375,7 +375,7 @@ body {
 .footer__links-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1px;
   list-style: none;
   padding: 0;
   margin: 0;
